@@ -1,0 +1,16 @@
+git init
+git remote add origin {repo url}  #origin repo ka naam h jo hum rakhenge..yaha kuch b le sakte h origin jaruri nahi h 
+#pahle se koi remote repo add ki h ki nahi 
+git remote -v
+# agar remote repo ko remove kar na h to
+git remote remove origin  # yaha origin repo ka naam h jo humne add ke time diya tha.
+#ab yaha per untrack file names batayega jo b humne add ki h.. un untracked fileko track karne ke liye 
+git add {file name}   #file ko stage karne ke liye... stage meand use commit krne ke liye ready karna.
+git add -all  # sabi files ko add karne ke liye
+git add . # all files ko ek saath kar ke liye
+#uske baad dekhenge ki kya status h.. kunsi file untracked h kunsi file tracked h like 
+git status 
+### jab tak ek file staged nahi hogee use hum commit nahi kar sakte h
+
+# staged se unstage karne ke liye command
+git rm --cached {file name}
