@@ -14,3 +14,10 @@ git status
 
 # staged se unstage karne ke liye command
 git rm --cached {file name}
+
+#github per push karne ke liye
+git push {gitreponame} master
+
+# ssh key generate krne ka command   ssh ke liye. gitbash use kre
+ssh-keygen -t rsa -C {"your emailid"}
+
